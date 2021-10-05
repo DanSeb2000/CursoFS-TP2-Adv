@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exportar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: sans-serif;
+                text-align: center;
+            }
+            
+            table {
+                width: 75%;
+                height: auto;
+                border-collapse: collapse;
+                font-size: 18px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+                        
+            tr.head {
+                border-bottom: thin solid black;
+            }
+            
+            tr.body {
+                border-bottom: thin solid lightgray;
+                text-align: left;
+            }
+            
+            .img {
+                text-align: center;
+                margin: auto;
+                height: 64px;
+                width: 64px;
+            }
+            
+            .boton {
+                background-color: dodgerblue;
+                border-color: dodgerblue;
+                border-radius: 5px;
+                padding: 10px;
+                color: white;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exportar tabla HTMl a PDF</h1>
+        <table>
+            <tr class="head">
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Imagen</th>
+            </tr>
+            <tr class="body">
+                <td>Daniel</td>
+                <td>Valenzuela</td>
+                <td>danielsebastianvalenzuela.2000@gmail.com</td>
+                <td><img class="img" src="img/rejuvenecimiento-hombre-mobile.jpg" alt="https://static2.abc.es/media/ciencia/2019/01/17/AdobeStock_221150952-U30834880027PMF--620x349@abc.jpg"></td>
+            </tr>
+            <tr class="body">
+                <td>Leonel</td>
+                <td>Torres</td>
+                <td>leojtorres@gmail.com</td>
+                <td><img class="img" src="img/cierrese-encima-retrato-cara-joven-hombre-barbudo_171337-2887.webp" alt="https://img.freepik.com/foto-gratis/cierrese-encima-retrato-cara-joven-hombre-barbudo_171337-2887.jpg?size=626&ext=jpg"></td>
+            </tr>
+            <tr class="body">
+                <td>Jorge</td>
+                <td>Jorves</td>
+                <td>jorgejorves@unmail.com</td>
+                <td><img class="img" src="img/cortes-tipo-rostro-ovalado-istock.webp" alt="https://modaellos.com//wp-content/uploads/2017/11/cortes-tipo-rostro-ovalado-istock.jpg"></td>
+            </tr>
+        </table>
+        <br>
+        <button class="boton">Imprimir a PDF!</button>
+    </body>
+</html>

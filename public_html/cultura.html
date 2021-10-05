@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cultura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2 style="text-align: center;">CATALOGO DE ARTE</h2>
+        <br>
+        <p><b>Introduce los términos de búsqueda:</b></p>
+        <form action="recibido.html">
+            <table style="width: 75%; margin-left: 15%">
+                <tr>
+                    <th>OBRA</th>
+                    <th>TIPO</th>
+                    <th>DISPONIBILIDAD</th>
+                    <th>ESTILO</th>
+                </tr>
+                <tr>
+                    <td>Título <input type="text" placeholder="Título"></td>
+                    <td><input type="checkbox">Escritura</td>
+                    <td><input name="disp" type="radio">Museo/acceso público</td>
+                    <td>
+                        <select name="estilo" id="estilo">
+                            <option value="clasico">Clásico</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Autor <input type="text" placeholder="Autor"></td>
+                    <td><input type="checkbox">Arquitectura</td>
+                    <td><input name="disp" type="radio">Colección privada</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox">Pintura</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            
+            <p><b>Háganos saber sus sugerencias:</b><br>
+                <textarea placeholder="Me gustaría indicar que..."></textarea>
+            </p>
+            
+            <input type="submit" value="Buscar">
+        </form>
+    </body>
+</html>
