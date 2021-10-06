@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Google falso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .search {
+                border-radius: 24px;
+                border: 1px solid #dfe1e5;
+                background-color: #fff;
+                height: 44px;
+                width: 45%;
+                margin: auto;
+                margin-top: 10px;
+            }
+            .search:hover {
+                background-color: #fff;
+                box-shadow: 0 1px 6px rgba(32,33,36,.28);
+                border-color: rgba(223,225,229,0);
+            }
+            
+            .input {
+                background-color: transparent;
+                border: none;
+                color: black;
+                height: 100%;
+                margin-top: -37px;
+                width: 95%;
+                margin: auto;
+                flex: 100%;
+                outline: none;
+                font-size: 16px;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .btn {
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center; margin-top: 25px;">
+            
+            <img src="img/googlelogo_color_272x92dp.png" alt=""/>
+            <form action="https://www.google.com/search">
+                <div class="search">
+                    <input type="text" class="input" name="q">
+                </div>
+                <div style="margin-top: 15px;">
+                    <input type="submit" class="btn" value="Buscar con google">
+                    <a href="#"><button class="btn">Me siento con suerte</button></a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
